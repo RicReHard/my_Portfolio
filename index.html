@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta ="viewport" content="width=device-width, initial-scale=1.0">
+    <meta ="description" content="Portafolio | Ricardo Esteban Reyes Valero">
+   
+    <title>Richard | Desarrollador Web</title>
+
+    <!-- Librerías -->
+    <link href="aos/aos.css" rel="stylesheet">
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="stylesheet/loader.css">
+    <link rel="stylesheet" id="fileCss" href="stylesheet/index.css">
+    <link rel="stylesheet" href="stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+</head>
+
+<body>
+    <div class="tema-color">
+    <button class="open-panel" onclick="activarPanel()">Colores</button>
+    <div class="cont-colores">
+
+        <button onclick="grey()">1</button>
+        <button onclick="red()">2</button>
+        <button onclick="yellow()">3</button>
+    </div>
+    </div>
+
+
+    <!--Cargando-->
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <!--Cabeza-->
+    <header class="header">
+        <img src="images/R.jpg" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi">Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#formacion">Formación</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+
+    </header>
+
+    <!--Main-->
+    <main>
+        <!-- Home -->
+        <section class="home">
+            <picture class="container_image-home">
+                <img class="image_home" src="images/perfil.png" alt="Richard" data-aos="zoom-in" data-aos-duration="3000">
+            </picture>
+            
+            <div class="home_info" id="home">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-aos="zoom-in">Hola! Soy</p>
+                    <p class="home_text-2" data-aos="zoom-in">Ricardo Reyes</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-aos="zoom-in">Desarrollador Web</p>
+                </div>
+
+                <div class="container_parrafo-info" data-aos="zoom-in">
+                    <p>Estudiante de Analisis y Desarrollo de Software enfocado al
+                        desarrollo web Frontend como persona amante a los diseños
+                        intuitivos y esteticamente agradables, busco crear proyectos 
+                        que brinden la mejor experiencia para el usuario.</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="#contacto">
+                        <button class="contact_button" data-aos="zoom-in">Contacto</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.facebook.com/profile.php?id=100071066110150" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook" class="icon-facebook">
+                </a>
+                <a href="https://github.com" target="_blank">
+                    <img src="images/github 3.png" alt="GitHub" class="icon-github">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="Instagram" class="icon-instagram">
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1>Sobre mí</h1>
+
+            <div class="container_content-sobreMi">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi" data-aos="fade-left">Ricardo Reyes</span>
+                    <span class="texto_sobreMi" data-aos="fade-left">Soy estudiante del programa Analisis y desarrollo de Software enfocado en programación Frontend.
+                        Aspiro conseguir empleo en el mundo del Desarrollo Web 
+                        adquirir experiencia, nuevos conocimientos, y fortalecer mi vida profesional.
+                        
+                        Soy una persona empatica y entusiasta con competencias 
+                        enfocadas en el trabajo en equipo, comunicación asertiva,
+                        resolución de problemas, responsable y proactivo, me gusta aprender de los demás y superarme continuamente.</span>
+                </div>
+    
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="images/perfil.png" alt="Richard" data-aos="fade-right">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1>Habilidades</h1>
+
+            <img src="images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" ="500">
+                    <img src="images/icon-html.png" alt="HTML" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" >
+                    <p>HTML</p>
+                </div>
+                
+                <div class="cards--habilidades">
+                    <img src="images/icon-css.png" alt="CSS" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>CSS</p>
+                </div>
+
+                <div class="cards--habilidades">
+                    <img src="images/icon-js.png" alt="JavaScript" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="cards--habilidades">
+                    <img src="images/icon-python.png" alt="Python" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>Python</p>
+                </div>
+                
+                <div class="cards--habilidades">
+                    <img src="images/icon-trello.png" alt="Trello" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>Trello</p>
+                </div>
+
+                <div class="cards--habilidades">
+                    <img src="images/icon-github-hab.png" alt="GitHub" data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000">
+                    <p>Github</p>
+                </div>
+                <div class="cards--habilidades">
+                    <img src="images/icon-git.png" alt="Git" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <p>Git</p>
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1>Formación</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <img class="logo-azure" src="images/azure.png" alt="Logo - Microsoft Azure">
+                    <div class="container_texto--formacion">
+                        <p>Microsoft Azure</p>
+                        <p>2022 - 2022</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <img class="logo-sena" src="images/sena-logo.png" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p>Analisis y Desarollo de Software</p>
+                        <p>2022 - En curso</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1>Proyectos</h1>
+
+            <img src="images/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+            <img src="images/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos" data-aos="flip-down" data-aos-duration="2000">
+                <div class="cards--proyectos">
+                    <div class="container_imgCard--proyectos">
+                        <img src="images/Group 2.png" alt="Proyecto: Tomando tu mano">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2>Proyectos</h2>
+                        <p>Una pagina web en donde el usuario pueda visualizar fundaciones reconocidas, adoptar y dar en adopcion animales. Con un sistema muy estructurado.</p>
+                    </div>
+                    <div class="container_btn--proyectos">
+                        <a href="https://github.com" target="_blank">
+                            <button class="btn_repo">
+                                <img src="images/github 3.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_portafolio" data-aos="flip-down" data-aos-duration="2000">
+                    <div class="container_imgCard--proyectos">
+                        <img src="images/Group 3.png" alt="Proyecto: Portafolio">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2>Portafolio</h2>
+                        <p>Mi portafolio web personal, en donde se encuentran algunos de mis proyectos mas destacados, mis habilidades tecnicas y un poco sobre mí formación.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://github.com" target="_blank">
+                            <button class="btn_repo">
+                                <img src="images/github 3.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1>Contacto</h1>
+            <div class="container_box--contacto">
+                <div class="container--contacto" data-aos="fade-right">
+                    <div class="container_text--contacto">
+                        <p>Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
+                    </div>
+                    <form class='form-contact' id='form' method='post'contacto-portafolio'><input type='hidden'/>
+                        <input type="text" placeholder="Nombre" required>
+                        <input type="email" placeholder="E-mail" required>
+                        <input type="text" placeholder="Asunto" required>
+                        <textarea cols="20" rows="4" placeholder="Mensaje" required></textarea>
+                        <div class="btn_form--contacto">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com" target="_blank">
+                    <img src="images/github 3.png" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="Instagram"">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright © | Coded with</span>
+                <span>by</span>
+                <span>Ricardo Reyes</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Librería de animaciones -->
+
+    <!-- Mi script -->
+    <script src="aos/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
