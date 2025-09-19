@@ -73,7 +73,7 @@ nav.nav_menu.not-active a {
 /* Home */
 
 .home {
-    background-color: blue;
+    background-color: #ffffff;
     width: 100%;
     height: auto;
 }
@@ -718,5 +718,6 @@ footer {
 
 }
     
+
 
 
