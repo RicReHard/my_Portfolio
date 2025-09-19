@@ -23,7 +23,7 @@ html {
 /* Barra de navegacion */
 
 .header {
-    background-color: #ffffff;
+    background-color: var(--white);
     padding: .8rem 3rem;
     display: flex;
     justify-content: space-between;
@@ -73,7 +73,7 @@ nav.nav_menu.not-active a {
 /* Home */
 
 .home {
-    background-color: #ffffff;
+    background-color: var(--beaver);
     width: 100%;
     height: auto;
 }
