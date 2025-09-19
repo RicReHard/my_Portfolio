@@ -23,7 +23,7 @@ html {
 /* Barra de navegacion */
 
 .header {
-    background-color: white;
+    background-color: #ffffff;
     padding: .8rem 3rem;
     display: flex;
     justify-content: space-between;
@@ -718,6 +718,7 @@ footer {
 
 }
     
+
 
 
 
